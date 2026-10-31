@@ -6,12 +6,36 @@
 <title>COSMAQ | Skin Hair Laser Centre - Halol</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root{--gold:#C9A96E;--gold2:#D4AF37;--black:#0A0A0A;--white:#FFFEFB;}
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:'Inter',sans-serif;background:#060606;color:#fff;overflow-x:hidden}
-  h1,h2,h3{font-family:'Cormorant Garamond',serif}
-  /* MARBLE BG */
-  .marble{
-    background:#080808;
-    background-image: 
-      radial-gradient(ellipse at 20% 20%, rgba(201,169,110,0.18) 0%, transparent 50
+:root{--gold:#C9A96E;--black:#0A0A0A;--white:#FFFEFB}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#060606;color:#fff;overflow-x:hidden}
+h1,h2,h3{font-family:'Cormorant Garamond',serif}
+.marble{background:#080808;background-image:radial-gradient(ellipse at 20% 20%, rgba(201,169,110,0.18) 0%, transparent 50%), radial-gradient(ellipse at 80% 80%, rgba(201,169,110,0.1) 0%, transparent 50%)}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px}
+.hero h1{font-size:72px;line-height:1.1;margin-bottom:20px}
+.hero h1 span{color:var(--gold)}
+.hero p{font-size:18px;opacity:0.7;max-width:600px;margin:0 auto 30px}
+.btn{padding:16px 36px;background:var(--gold);color:#000;border:none;border-radius:30px;font-weight:600;cursor:pointer;font-size:16px}
+.section{padding:80px 20px;text-align:center;max-width:1100px;margin:0 auto}
+.card{background:#111;border:1px solid rgba(201,169,110,0.2);padding:40px;border-radius:20px;margin-top:40px}
+</style>
+</head>
+<body>
+<div class="marble hero">
+<div>
+<h1>COSMAQ<br><span>Skin Hair Laser</span><br>Centre</h1>
+<p>Advanced Aesthetic Care in Halol - Where Beauty Meets Science</p>
+<button class="btn" onclick="alert('Appointment Booked!')">Book Consultation</button>
+</div>
+</div>
+<div class="section">
+<h2 style="font-size:48px">Welcome to COSMAQ</h2>
+<div class="card">
+<h3 style="color:var(--gold);font-size:28px;margin-bottom:15px">Your Website is LIVE Now!</h3>
+<p style="opacity:0.8;line-height:1.8">Ye website ab sahi se dikh rahi hai. Ab black screen nahi ayega. Aap is code ko apne hisab se change kar sakte ho.</p>
+<br>
+<button class="btn" onclick="window.location.reload()">Reload Page</button>
+</div>
+</div>
+</body>
+</html>
